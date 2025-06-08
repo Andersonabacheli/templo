@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ministério Templo Vivo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="bg-black text-white">
+
+  <!-- HEADER -->
+  <header class="	bg-blue-900 shadow-md fixed w-full top-0 z-50">
+    <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+      <h1 class="text-2xl font-bold">Templo Vivo</h1>
+      <nav class="hidden md:flex space-x-6">
+        <a href="#sobre" class="hover:underline">Sobre</a>
+        <a href="#eventos" class="hover:underline">Eventos</a>
+        <a href="#contato" class="hover:underline">Contato</a>
+        <a href="https://www.facebook.com/ministerio.templovivo.9" target="_blank" class="hover:underline">Facebook</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="pt-24">
+ <section class="relative w-full h-screen bg-cover bg-center bg-no-repeat">
+  <!-- Vídeo de fundo -->
+<img class="absolute w-full h-screen bg-no-repeat" src="./img/image.png " alt="imagem do ministerio templo vivo ">
+
+
+
+
+  <!-- Camada escura para contraste -->
+  <div class="absolute inset-0 bg-black/60 z-10"></div>
+
+  <!-- Conteúdo centralizado -->
+  <div class="relative z-20 flex flex-col items-center justify-center h-full text-center px-4 text-white">
+    <h2 class="text-5xl font-bold mb-4">Bem-vindo ao Ministério Templo Vivo</h2>
+    <p class="text-lg bg-black/50 px-4 py-1 rounded inline-block">
+      Uma igreja viva para um Deus vivo
+    </p>
+    <a href="#eventos"
+       class="mt-6 inline-block bg-teal-500 text-black px-6 py-2 rounded-full 
+              hover:bg-teal-400 font-semibold transition">
+      Ver Próximos Cultos
+    </a>
+  </div>
+</section>
+
+
+
+
+
+    <!-- SOBRE -->
+    <section id="sobre" class="py-16 px-6 max-w-4xl mx-auto">
+      <h3 class="text-3xl font-bold mb-6 text-teal-400">Sobre Nós</h3>
+      <p class="text-gray-300 leading-relaxed text-lg">
+        O Ministério Templo Vivo foi fundado em 2002 em São Paulo com a missão de restaurar vidas, promover o evangelho com poder e alcançar famílias por meio de cultos, eventos e ações sociais. Somos uma igreja cristã comprometida com a Palavra e com o agir do Espírito Santo.
+      </p>
+
+        <p class="text-gray-200 leading-relaxed mt-4">
+      O Ministério Templo Vivo faz parte da <strong>Paróquia Jesus de Nazaré</strong>,  Juntos, trabalhamos para impactar vidas com fé, amor e serviço à comunidade.
+      </p>
+
+    </section>
+
+    <!-- EVENTOS -->
+    <section id="eventos" class="bg-gray-900 py-16 px-6 cursor-pointer" >
+      <div class="max-w-6xl mx-auto">
+        <h3 class="text-3xl font-bold mb-8 text-teal-400 text-center">Próximos Eventos</h3>
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="bg-gray-800 p-6 rounded-lg shadow hover:scale-105 transition ">
+            <h4 class="text-xl font-semibold">Hora Santa</h4>
+            <p class="text-gray-300">Toda quinta-feira às 8h</p>
+          </div>
+          <div class="bg-gray-800 p-6 rounded-lg shadow hover:scale-105 transition">
+            <h4 class="text-xl font-semibold">Culto da Família</h4>
+            <p class="text-gray-300">Domingos às 10h</p>
+          </div>
+          <div class="bg-gray-800 p-6 rounded-lg shadow hover:scale-105 transition">
+            <h4 class="text-xl font-semibold">Reunião de Cura</h4>
+            <p class="text-gray-300">Sextas às 19h</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- CONTATO -->
+    <section id="contato" class="bg-gray-900 py-16 px-6">
+      <div class="max-w-4xl mx-auto text-center">
+        <h3 class="text-3xl font-bold mb-6 text-teal-400">Contato</h3>
+    
+        <p class="text-gray-300 mb-4"> WhatsApp: (11) 99999-9999</p>
+        <a href="https://www.facebook.com/ministerio.templovivo.9" target="_blank" class="bg-blue-600 px-6 py-2 rounded hover:bg-blue-500">Ir para o Facebook</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- WHATSAPP BUTTON -->
+  <a href="https://wa.me/5511999999999" target="_blank" class="fixed bottom-4 right-4 bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-400 z-50">
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M12 .5C5.649.5.5 5.649.5 12c0 2.136.559 4.191 1.612 6.023L.5 23.5l5.65-1.598A11.454 11.454 0 0 0 12 23.5c6.351 0 11.5-5.149 11.5-11.5S18.351.5 12 .5zm0 21a9.45 9.45 0 0 1-5.084-1.489l-.363-.226-3.349.948.954-3.261-.237-.375A9.462 9.462 0 0 1 2.5 12c0-5.238 4.262-9.5 9.5-9.5s9.5 4.262 9.5 9.5-4.262 9.5-9.5 9.5zm5.132-6.834c-.28-.14-1.653-.817-1.91-.91-.256-.093-.442-.14-.627.14s-.72.91-.882 1.097c-.163.186-.326.21-.606.07-.28-.14-1.183-.435-2.252-1.386-.832-.742-1.393-1.656-1.555-1.937-.163-.28-.017-.43.122-.57.125-.124.28-.325.42-.488.14-.163.186-.28.28-.467.093-.186.047-.35-.023-.49-.07-.14-.627-1.51-.86-2.07-.226-.542-.455-.467-.627-.475-.163-.008-.35-.01-.537-.01s-.49.07-.746.35c-.256.28-.98.956-.98 2.33s1.003 2.704 1.143 2.893c.14.186 1.977 3.014 4.793 4.223.67.288 1.194.459 1.602.588.673.215 1.286.185 1.768.112.539-.08 1.653-.676 1.89-1.33.233-.654.233-1.212.163-1.33-.07-.116-.256-.186-.537-.325z"/>
+    </svg>
+  </a>
+
+  <!-- RODAPÉ -->
+  <footer class="bg-black text-center py-6 text-gray-500">
+    © 2025 Ministério Templo Vivo. Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
